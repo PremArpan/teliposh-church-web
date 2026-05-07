@@ -18,6 +18,16 @@
     --foreground: #ededed;
   }
 }
+@layer components {
+  .admin-input {
+    @apply w-full bg-[#CAF0F8]/20 border border-[#90E0EF] rounded-2xl px-6 py-4 text-[#03045E] font-medium outline-none focus:ring-2 focus:ring-[#00B4D8] transition-all placeholder:text-[#0077B6]/50;
+  }
+}
+@layer components {
+  .admin-input {
+    @apply w-full bg-[#CAF0F8]/30 border-none rounded-xl p-4 text-[#03045E] focus:ring-2 focus:ring-[#00B4D8] outline-none transition-all placeholder-[#0077B6]/50;
+  }
+}
 
 body {
   background: var(--background);
