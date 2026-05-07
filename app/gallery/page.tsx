@@ -144,7 +144,7 @@ export default function FullGallery() {
                 >
                   <GalleryImage 
                     src={photo.image_url} 
-                    event={photo.category || "Church Event"} 
+                    category={photo.category || "Church Event"} 
                   />
                 </div>
               ))}
