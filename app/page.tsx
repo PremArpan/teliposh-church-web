@@ -132,7 +132,7 @@ export default function Home() {
               <GalleryImage 
                 key={photo.id} 
                 src={photo.image_url} 
-                event={photo.event_name || "Church Event"} 
+                category={photo.category || "Church Event"} 
               />
             ))}
           </div>
